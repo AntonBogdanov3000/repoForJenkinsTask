@@ -30,7 +30,7 @@ public class SteamTest {
     @Test(description = "Input random strings, click Sign in button")
     public void inputStringsClickButton(){
         String login = "Homer Sison";
-        String password = "Springfield";
+        String password = "Novopolotsk";
         driver.get("https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_660__global-header");
         WebElement enterLogin = driver.findElement
                 (By.xpath("//input[@class='newlogindialog_TextInput_2eKVn']"));
