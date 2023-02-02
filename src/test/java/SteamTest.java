@@ -17,6 +17,8 @@ public class SteamTest {
                 (By.xpath("//a[@class='header_installsteam_btn_content']"));
         Assert.assertTrue(logo.isDisplayed(),"Error on main page");
     }
+
+
     @Test(description = "Use login button")
     public void useLoginButton(){
         WebElement button = driver.findElement(By.xpath("//a[@class='global_action_link']"));
