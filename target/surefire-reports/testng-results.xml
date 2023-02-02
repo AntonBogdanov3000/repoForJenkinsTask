@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T01:28:23 MSK" name="SteamTest" finished-at="2023-02-02T01:28:28 MSK" duration-ms="4326">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T01:28:23 MSK" name="Command line test" finished-at="2023-02-02T01:28:28 MSK" duration-ms="4326">
+      <class name="SteamTest">
+        <test-method signature="inputStringsClickButton()[pri:0, instance:SteamTest@13047d7d]" started-at="2023-02-02T01:28:23 MSK" name="inputStringsClickButton" description="Input random strings, click Sign in button" finished-at="2023-02-02T01:28:26 MSK" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputStringsClickButton -->
+        <test-method signature="openUrl()[pri:0, instance:SteamTest@13047d7d]" started-at="2023-02-02T01:28:26 MSK" name="openUrl" description="Open main page" finished-at="2023-02-02T01:28:26 MSK" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="useLoginButton()[pri:0, instance:SteamTest@13047d7d]" started-at="2023-02-02T01:28:26 MSK" name="useLoginButton" description="Use login button" finished-at="2023-02-02T01:28:28 MSK" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useLoginButton -->
+      </class> <!-- SteamTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- SteamTest -->
+</testng-results>
