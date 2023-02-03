@@ -29,7 +29,7 @@ public class SteamTest {
 
     @Test(description = "Input random strings, click Sign in button")
     public void inputStringsClickButton(){
-        String login = "Homer Sison";
+        String login = "Homer Simson";
 
         String password = "Novopolotsk";
         driver.get("https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_660__global-header");
