@@ -26,7 +26,6 @@ public class SteamTest {
         WebElement passLine = driver.findElement(By.xpath("//input[contains(@type,'password')]"));
         Assert.assertTrue(passLine.isDisplayed(),"Error on login page");
     }
-
     @Test(description = "Input random strings, click Sign in button")
     public void inputStringsClickButton(){
         String login = "Homer Simson";
